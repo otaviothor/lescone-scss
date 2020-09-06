@@ -29,16 +29,6 @@ $s-device: 480px;
   }
 }
 
-p {
-  color: blue;
-  @include d(m) {
-    color: pink;
-  }
-  @include d(s) {
-    color: aqua;
-  }
-}
-
 // grid function
 @function grid($col, $offset: false) {
   $width: $col / $cols * 100 + "%";

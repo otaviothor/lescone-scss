@@ -1,7 +1,7 @@
 body {
   background: $bege-claro;
   border: 10px solid $bege-medio;
-  color: $cinza;
+  color: $cinza !important;
   @include d(s) {
     border: none;
   }
